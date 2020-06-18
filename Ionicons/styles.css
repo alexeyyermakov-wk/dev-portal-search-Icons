@@ -58,6 +58,7 @@ a:focus {
 }
 
 .results-status {
+    border-top: 1px solid #ddd;
     color: #999999;
     margin-bottom: 12px;
     padding-top: 12px;
