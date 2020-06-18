@@ -1,0 +1,249 @@
+body {
+    background-color: #fcfcfc;
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 0 70px;
+}
+
+html {
+    display: block;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.breadcrumb-bar {
+    background: #f2f2f2;
+    border-bottom: 1px solid #dddddd;
+    color: #444444;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+}
+
+.page-content {
+    padding: 30px;
+}
+
+.temp-nav-container {
+    background: #282828;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 70px;
+}
+
+.results-status {
+    color: #999999;
+    margin-bottom: 12px;
+    padding-top: 12px;
+}
+
+.result-container {
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+}
+
+.result-title {
+    font-size: 18px;
+}
+
+.result-url {
+    color: #339900;
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: none !important;
+}
+
+.result-type {
+    color: #999999;
+}
+
+.search-container {
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    display: flex;
+    height: 44px;
+    margin-bottom: 30px;
+    width: 632px;
+    z-index: 3;
+}
+
+.search-container:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.search-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 4px 0 16px;
+}
+
+.search-input-wrapper {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+    line-height: 34px;
+    height: 34px;
+
+    font-size: 18px;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+    color: #999999;
+    padding: 12px;
+    width: 44px;
+}
+
+.search-btn:hover {
+    color: #777777;
+}
+
+.search-btn:active, .search-btn:focus {
+    outline: none;
+    color: #0366d6;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: 256px calc(100% - 256px);
+}
+
+.result-preview-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.result-preview-item {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 60px; /* This should only show 3 lines in firefox */
+}
+
+.results-filter-box {
+    padding: 10px;
+}
+
+.profile-link {
+    color: #5a5a5a
+}
+
+.profile-link:hover {
+    color: #6c0
+}
+
+.title-icon {
+    margin: 4px auto auto auto;
+}
+
+.pag-bar {
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+}
+
+.pag-button {
+    cursor: pointer;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid #d0d0d0;
+    transition-duration: 0.2s;
+}
+
+.pag-button:hover {
+    background-color: #d0d0d0
+}
+
+#prev-button {
+}
+
+#next-button {
+}
+
+ion-icon {
+    font-size: 16px;
+}
+
+/*Styling for specific icons*/
+/*
+ion-icon#document-text-outline {
+    color: #037ffc;
+}
+
+ion-icon#help-circle-outline{
+    color: #999999;
+}
+
+ion-icon#document-attach-outline {
+    color: #037ffc;
+}
+
+ion-icon#information-circle-outline {
+    color: #999999;
+}
+
+ion-icon#newspaper-outline {
+    color: #037ffc;
+}
+
+ion-icon#chatbubble-ellipses-outline {
+    color: #999999;
+}
+*/
+
+.pag-bar {
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+}
+
+.title-container {
+    margin-top: 2px;
+}
