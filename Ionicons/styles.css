@@ -68,6 +68,7 @@ a:focus {
     padding: 12px;
     display: grid;
     grid-template-columns: 24px 1fr;
+    grid-gap: 0.6em;
 }
 
 .result-title {
@@ -180,8 +181,10 @@ a:focus {
     color: #6c0
 }
 
+
 .title-icon {
-    margin: 4px auto auto auto;
+    margin: 0 auto;
+    font-size: 1.75em;
 }
 
 .pag-bar {
@@ -214,31 +217,37 @@ ion-icon {
 }
 
 /*Styling for specific icons*/
-/*
-ion-icon#document-text-outline {
-    color: #037ffc;
+
+/* Document */
+ion-icon#reader {
+    color: #006AFF;
 }
 
-ion-icon#help-circle-outline{
-    color: #999999;
+/* Question */
+ion-icon#help-circle {
+    color:  #5BC500;
 }
 
-ion-icon#document-attach-outline {
-    color: #037ffc;
+/* Attachment */
+ion-icon#attach {
+color: #232323;
 }
 
-ion-icon#information-circle-outline {
-    color: #999999;
+/* Wiki */
+ion-icon#information-circle {
+    color: #FF8000;
 }
 
-ion-icon#newspaper-outline {
-    color: #037ffc;
+/* Page */
+ion-icon#browsers {
+    color: #8E8E8E;
 }
 
-ion-icon#chatbubble-ellipses-outline {
-    color: #999999;
+/* Comment */
+ion-icon#chatbubble-ellipses {
+    color: #333333;
 }
-*/
+
 
 .pag-bar {
     border-top: 1px solid #ddd;
